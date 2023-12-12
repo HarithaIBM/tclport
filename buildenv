@@ -13,6 +13,7 @@ export ZOPEN_SRC_DIR=unix
 export ZOPEN_CHECK_OPTS='test'
 rm -f $TCL_VERSION_STRING
 ln -s "tcl${TCL_VERSION}" $TCL_VERSION_STRING
+export ZOPEN_COMP=CLANG
 
 zopen_append_to_env() 
 {
